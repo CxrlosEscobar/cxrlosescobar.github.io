@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #080202;
+    background-color: #1c1818;
     font-family: "Poppins", sans-serif;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .logo-2 {
-    width: 150px;
+    width: 145px;
 }
 
 .socials {
@@ -392,7 +392,7 @@ body {
         display: none;
     }
     .logo-1 {
-        width: 100px;
+        width: 80px;
     }
     .logo-2 {
         width: 0;

@@ -1,0 +1,107 @@
+body {
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://static4.franchisedirect.ie/dims4/default/6315773/2147483647/strip/true/crop/880x526+0+0/resize/900x538!/format/webp/quality/95/?url=https%3A%2F%2Ffranchisedirect-40-prod-ops.s3.amazonaws.com%2F11%2Fb3%2Fb4b6b1abae0de5baf09d759d27c5%2Fmcdonalds-2016-recycled-article.jpg);
+    display: flex;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #ffd25b, 0 0 20px #ffd25b, 0 0 30px #ffd25b; 
+      }
+      to {
+        box-shadow: 0 0 20px #ffd25b, 0 0 40px #ffd25b, 0 0 60px #ffd25b; 
+      }
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  /* Styling for input fields and labels */
+  .input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(240, 240, 240, 0.8); /* Light gray background */
+    outline: none;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; /* Ensure proper width */
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    background-color: rgba(240, 240, 240, 0.9); /* Lighter background on focus */
+  }
+  
+  /* Styling for the login button */
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffbc0d; /* Blue background color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative; /* Position for the icon */
+  }
+  
+  button:hover {
+    background-color: #c08b00; /* Darker blue background on hover */
+  }
+
+  .forgot-password {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+
+  .forgot-password a,
+  .create-account a {
+  color: #006bae; /* Blue color for the links */
+  text-decoration: none;
+}
+
+.image {
+    width: 46px;
+    height: 41;
+}

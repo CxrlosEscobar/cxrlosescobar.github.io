@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script>
+        function redireccionarACompra() {
+            window.location.href = "compra.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Iniciar sesión en la cuenta</h2>
+        <div class="input-group">
+            <label for="username">Email</label>
+            <input type="text" id="username" placeholder="Ingresa tu email">
+        </div>
+        <div class="input-group">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="Ingresa tu Contraseña">
+        </div>
+        <button type="submit" onclick="redireccionarACompra()">Iniciar sesión en la cuenta</button>
+        <div class="forgot-password">
+            <a href="index.html">¿Olvidaste tu contraseña?</a>
+        </div>
+        <div class="image">
+                <img class="image" src="https://www.mcdonaldsapps.com/vectors/m.0191143e.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
